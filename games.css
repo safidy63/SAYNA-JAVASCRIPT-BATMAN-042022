@@ -1,0 +1,87 @@
+:root {
+    --primary-ad-color: #ffff00;
+    --black-ad-color: #000000;
+    --white-ad-color: #ffffff;
+    ---red-ad-color: #b11313;
+    ---gras-ad-color: #f8f184;
+    ---blue-ad-color: #19587d;
+    ---black-ad-color: #0d0e09;
+    ---gris-ad-color: #c4c4c4;
+    ---reds-ad-color: #eddebf;
+    ---redo-ad-color: #890008;
+}
+
+body {
+    margin: 0;
+    color: var(--white-ad-color);
+    background-color: var(--black-ad-color);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1,
+button {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/*slider*/
+
+.im {
+    display: flex;
+    overflow: hidden;
+    transition: 2s;
+}
+
+
+/*premier section du page home*/
+
+.section {
+    background-image: url(./Assets/Illustrations/Game/Batgame1.png);
+    background-repeat: no-repeat;
+    padding: 4% 10% 0% 10%;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.nav-link,
+.nav-item {
+    color: var(--white-ad-color) !important;
+    font-size: 22px;
+}
+
+.first {
+    padding: 30% 23% 0 23%;
+    font-size: 19px;
+    font-weight: 390;
+}
+
+.firs {
+    font-weight: 400;
+    padding: 10% 0 45% 5%;
+}
+
+.fleche {
+    position: fixed;
+    top: 50%;
+    left: 85.9%;
+}
+
+.dive {
+    padding: 10%;
+}
+
+
+/*button*/
+
+.dive button {
+    color: var(--white-ad-color) !important;
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.6) 0%, hsla(0, 100%, 50%, 0.2) 100%);
+    padding: 2% 8%;
+    border: none;
+}
+
+.img-fluid {
+    padding: 5% 0;
+    width: 80%;
+    margin: 0 5%;
+}

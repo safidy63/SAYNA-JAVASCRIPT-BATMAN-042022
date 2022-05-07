@@ -1,0 +1,424 @@
+:root {
+    --primary-ad-color: #ffff00;
+    --black-ad-color: #000000;
+    --white-ad-color: #ffffff;
+    ---red-ad-color: #b11313;
+    ---gras-ad-color: #f8f184;
+    ---blue-ad-color: #19587d;
+    ---black-ad-color: #0d0e09;
+    ---gris-ad-color: #c4c4c4;
+    ---reds-ad-color: #eddebf;
+    ---redo-ad-color: #890008;
+}
+
+body {
+    margin: 0;
+    color: var(--white-ad-color);
+    background-color: var(--black-ad-color);
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+h1,
+button {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+/*slider*/
+
+.im {
+    display: flex;
+    overflow: hidden;
+    transition: 2s;
+}
+
+
+/*premier section du page home*/
+
+.section {
+    background-image: url(./Assets/Illustrations/Home/Bathome1.png);
+    background-repeat: no-repeat;
+    padding: 4% 10% 0% 10%;
+    position: relative;
+    background-size: 100% 100%;
+}
+
+.nav-link,
+.nav-item {
+    color: var(--white-ad-color) !important;
+    font-size: 22px;
+}
+
+.first {
+    padding: 30% 23% 0 23%;
+    font-size: 19px;
+    font-weight: 390;
+}
+
+.firs {
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.fleche {
+    position: fixed;
+    top: 50%;
+    left: 85.9%;
+}
+
+
+/*button */
+
+.butt {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.cadre,
+.butt button {
+    color: var(--white-ad-color);
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.6) 0%, hsla(0, 100%, 50%, 0.2) 100%);
+    margin: 10% 0 50% 0;
+}
+
+
+/*second section du page home*/
+
+.seconde {
+    background-color: var(--black-ad-color);
+    padding: 4% 15% 0% 15%;
+    padding-bottom: 10%;
+}
+
+.second {
+    background-color: var(--black-ad-color);
+    padding: 4% 15% 0% 15%;
+}
+
+.card {
+    position: relative;
+    background-color: var(--black-ad-color);
+}
+
+.bg-dark {
+    background-color: var(--black-ad-color);
+}
+
+.cardy {
+    position: absolute;
+    background-color: transparent;
+    width: 100%;
+    top: 66%;
+    font-size: 12px;
+    display: none;
+}
+
+.cadre {
+    position: relative;
+    width: 90%;
+    margin: 10% 0 0 10%;
+}
+
+.img {
+    position: absolute;
+    top: -40%;
+    left: -10%;
+    width: 35%;
+}
+
+
+/* quatrieme*/
+
+.slide {
+    background: linear-gradient(90deg, var(---reds-ad-color) 0%, rgba(25, 88, 125, 1) 100%);
+}
+
+.fa-solid {
+    font-size: 5rem;
+}
+
+
+/*sept section du page home*/
+
+.sept {
+    background: linear-gradient(45deg, var(---reds-ad-color) 0%, rgb(0, 12, 19) 100%);
+    padding: 5% 15%;
+}
+
+.submit {
+    color: var(--white-ad-color);
+    background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.6) 0%, hsla(0, 100%, 50%, 0.2) 100%);
+    padding: 2% 10%;
+    margin: 3% 0 0 35%;
+    border: none;
+}
+
+::placeholder,
+select {
+    color: var(--white-ad-color) !important;
+}
+
+.mob {
+    margin: 20px 0 0 30%;
+}
+
+.mob label {
+    border: 1px solid;
+    margin: 20px 0 0 100%;
+    color: var(--white-ad-color);
+}
+
+
+/*footer */
+
+#footer {
+    background-color: #0D0E09;
+}
+
+.left {
+    margin: 10%;
+}
+
+.right {
+    margin: 10% 5% 0 80%;
+}
+
+.icon_player {
+    position: absolute;
+    top: 434%;
+    left: 45.5%;
+}
+
+.sliders {
+    animation-duration: 5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: -100%;
+        opacity: 0;
+    }
+    25% {
+        opacity: 0;
+    }
+    to {
+        margin-left: 0%;
+        opacity: 1;
+    }
+}
+
+.slidets {
+    animation-duration: 5s;
+    animation-name: slideon;
+}
+
+@keyframes slideon {
+    from {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.1;
+    }
+    35% {
+        opacity: 0.2;
+    }
+    45% {
+        opacity: 0.3;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.slider {
+    animation-duration: 3s;
+    animation-name: slide;
+}
+
+@keyframes slide {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+
+/*pup up*/
+
+.pup {
+    position: absolute;
+    top: 459%;
+    width: 85%;
+    margin: 0 0 0 8%;
+    padding: 28% 0;
+    border-radius: 5%;
+    box-shadow: 0em 1px var(---reds-ad-color), -0em 0 .4em rgb(0, 12, 19);
+    display: none;
+}
+
+.open {
+    display: block;
+}
+
+
+/* slider des image et quotation*/
+
+.mySlides {
+    display: none;
+}
+
+.mySlides1 {
+    display: none;
+}
+
+
+/* Slideshow container */
+
+.slideshow-container {
+    position: relative;
+}
+
+.slideshow-container1 {
+    position: relative;
+}
+
+
+/*slide*/
+
+.myslides {
+    height: 100%;
+}
+
+.myslides img {
+    width: 90%;
+}
+
+
+/* Fading animation slide */
+
+.fade {
+    animation-name: fade;
+    animation-duration: 3s;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/* slider des image et quotation*/
+
+
+/*slide1*/
+
+.myslides1 {
+    height: 100%;
+}
+
+.myslides1 img {
+    width: 90%;
+}
+
+.job {
+    display: flex;
+    justify-content: space-between;
+}
+
+.love {
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+
+/* Fading animation slides2*/
+
+.fadei {
+    animation-name: fadein;
+    animation-duration: 1.5s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.just {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*slide3*/
+
+.mySlides2 {
+    display: none;
+}
+
+.slideshow-container2 {
+    position: relative;
+    margin-left: 25%;
+    width: 50%;
+}
+
+.slideshow-container2 p {
+    font-size: 16px;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    border: 1px solid;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: var(---blue-ad-color);
+}
+
+
+/* Fading animation */
+
+.fades {
+    animation-name: fady;
+    animation-duration: 1.5s;
+}
+
+@keyframes fady {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
+/*slide4*/
+
+.myslides3 {
+    height: 100%;
+}
+
+
+/*.mySlides3 {
+    display: none;
+}*/
