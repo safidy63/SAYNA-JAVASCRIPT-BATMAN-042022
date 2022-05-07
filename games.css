@@ -23,17 +23,11 @@ button {
     font-family: 'Rajdhani', sans-serif;
 }
 
-
-/*slider*/
-
 .im {
     display: flex;
     overflow: hidden;
     transition: 2s;
 }
-
-
-/*premier section du page home*/
 
 .section {
     background-image: url(./Assets/Illustrations/Game/Batgame1.png);
@@ -69,9 +63,6 @@ button {
 .dive {
     padding: 10%;
 }
-
-
-/*button*/
 
 .dive button {
     color: var(--white-ad-color) !important;
